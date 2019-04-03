@@ -1,23 +1,23 @@
 $(document).ready(function() {
 
-    var crystalOne = Math.floor(Math.random() * 13) + 1;
-    var crystalTwo = Math.floor(Math.random() * 13) + 1;
-    var crystalThree = Math.floor(Math.random() * 13) + 1;
-    var crystalFour = Math.floor(Math.random() * 13) + 1;
+    var crystalOne = Math.floor(Math.random() * 12) + 1;
+    var crystalTwo = Math.floor(Math.random() * 12) + 1;
+    var crystalThree = Math.floor(Math.random() * 12) + 1;
+    var crystalFour = Math.floor(Math.random() * 12) + 1;
     var winsCount = 0;
     var lossCount = 0;
     var userScore = 0;
-    var randomNumber = Math.floor(Math.random() * 121) + 19;
+    var randomNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
     $("#random-number").text(randomNumber);
 
     var resetGame = function(){
-        crystalOne = Math.floor(Math.random() * 13) + 1;
-        crystalTwo = Math.floor(Math.random() * 13) + 1;
-        crystalThree = Math.floor(Math.random() * 13) + 1;
-        crystalFour = Math.floor(Math.random() * 13) + 1;
+        crystalOne = Math.floor(Math.random() * 12) + 1;
+        crystalTwo = Math.floor(Math.random() * 12) + 1;
+        crystalThree = Math.floor(Math.random() * 12) + 1;
+        crystalFour = Math.floor(Math.random() * 12) + 1;
         userScore = 0;
-        randomNumber = Math.floor(Math.random() * 121) + 19;
+        randomNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
         $("#score").text(userScore);
         $("#random-number").text(randomNumber);
     }
