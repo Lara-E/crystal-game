@@ -2,37 +2,53 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../images/background.jpg);
+    font-family: 'Karla', sans-serif;
+} 
 .column-1 {
     background-color: blueviolet;
-    height: 100px;
+    height: 75px;
     padding: 10px;
+    margin: 5px;
 }
 
 .column-2 {
     background-color: aqua;
+    margin: 5px;
 }
 
 .column-3 {
     background-color: plum;
-    height: 100px;
+    height: 130px;
+    margin: 5px;
+    font-size: 70px;
 }
 
 .column-4 {
-    height: 100px;
+    height: 120px;
     background-color: lightseagreen;
+    margin: 5px;
+    font-size: 20px;
 }
 
 img {
     height: 75px;
     width: 75px;
+    margin-left: -10px;
 }
 
 .column-6 {
-    height: 50px;
+    height: 30px;
     background-color: lightskyblue;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 24px;
 }
 
 .column-7 {
     background-color: lightslategray;
     height: 100px;
+    margin-left: 4px;
+    font-size: 70px;
 }
